@@ -2,28 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  li > a {
-    @apply text-blue-500;
-  }
-  p {
-    @apply text-white;
-  }
-}
-
 :root {
-  --foreground-rgb: 255, 255, 255;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 241, 245, 249;
+  --background-start-rgb: 30, 41, 59;
+  --background-end-rgb: 0, 0, 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
 
 body {
   color: rgb(var(--foreground-rgb));
